@@ -6,7 +6,14 @@
 }
 
 <h1>Index</h1>
+<form asp-controller="Movies" asp-action="Index">
+    <p>
+        Tìm Kiếm: <input type="text" name="SearchString" />
+        <input type="submit" value="Filter" />
+    </p>
+</form>
 
+<table
 <p>
     <a asp-action="Create">Create New</a>
 </p>
